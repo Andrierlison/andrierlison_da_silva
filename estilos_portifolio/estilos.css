@@ -1,0 +1,112 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+.mudar-cor * {
+  color: #ffffff;
+  background-color: #35353d;
+  border: none;
+}
+
+.mudar-cor .menuTopo i {
+  color: #353535;
+  background-color: #ffffff;
+}
+
+i {
+  font-size: 20pt;
+  color: #023441;
+}
+
+hr {
+  margin: 1vh 5vh 1vh 5vh;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  background-color: #023441;
+  color: #ffffff;
+}
+header h1 {
+  padding: 10vh 2vh 5vh 2vh;
+}
+header h2 {
+  padding: 4vh 2vh 5vh 2vh;
+  text-align: center;
+}
+header .menuTopo li {
+  display: inline;
+}
+header .menuTopo a {
+  display: inline-block;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 15px;
+  text-decoration: none;
+  border: none;
+}
+main {
+  padding: 1vh;
+}
+main article {
+  border: 3px solid #023441;
+  margin: 1vh auto;
+  max-width: 1000px;
+  background-color: #fafafa;
+  box-shadow: 4px 4px 0px #c1c1c1;
+}
+main article h2, h3, h4 {
+  padding: 2vh;
+}
+main article p {
+  text-align: justify;
+  padding: 1vh 1vh 1vh 2vh;
+}
+main article li {
+  padding: 1vh 1vh 1vh 2vh;
+}
+main article li i {
+  color: #000000;
+  display: inline-block;
+  padding: 5px;
+}
+main article a {
+  color: #0000FF;
+  cursor: pointer;
+}
+main article dt {
+  padding: 0vh 0vh 3vh 3vh;
+}
+main article dd {
+  padding: 0vh 2vh 3vh 3.5vh;
+  text-align: justify;
+}
+
+footer {
+  background-color: #023441;
+  color: #ffffff;
+}
+footer h3 {
+  padding: 5vh;
+}
+footer li {
+  font-size: 20px;
+}
+footer li i {
+  color: #ffffff;
+  padding: 10px;
+}
+footer p {
+  text-align: center;
+  padding: 10vh;
+}
