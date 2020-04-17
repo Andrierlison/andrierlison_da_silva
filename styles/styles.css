@@ -66,8 +66,7 @@ main {
 
 main article {
   border: 3px solid #023441;
-  margin: 1vh auto;
-  padding: 5px;
+  margin: 3vh auto;
   max-width: 1000px;
   background-color: #fafafa;
   box-shadow: 4px 4px 0px #c1c1c1;
