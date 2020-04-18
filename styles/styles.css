@@ -11,7 +11,7 @@ body {
 
 .mudar-cor * {
   color: #ffffff;
-  background-color: #35353d;
+  background-color: #353535;
   border: none;
 }
 
@@ -20,9 +20,8 @@ body {
   background-color: #ffffff;
 }
 
-i {
-  font-size: 20pt;
-  color: #023441;
+a {
+  color: #286270;
 }
 
 hr {
@@ -34,27 +33,25 @@ li {
 }
 
 header {
-  background-color: #023441;
+  background-color: #286270;
   color: #ffffff;
 }
 
 header h1 {
   padding: 10vh 2vh 5vh 2vh;
+  text-shadow: 2px 2px 1px #000000;
 }
 
 header h2 {
   padding: 4vh 2vh 5vh 2vh;
   text-align: center;
-}
-
-header .menuTopo li {
-  display: inline;
+  text-shadow: 2px 2px 1px #000000;
 }
 
 header .menuTopo a {
   display: inline-block;
   background-color: #ffffff;
-  color: #000000;
+  color: #286270;
   padding: 15px;
   text-decoration: none;
   border: none;
@@ -65,10 +62,9 @@ main {
 }
 
 main article {
-  border: 3px solid #023441;
+  border: 3px solid #286270;
   margin: 3vh auto;
   max-width: 1000px;
-  background-color: #fafafa;
   box-shadow: 4px 4px 0px #c1c1c1;
 }
 main article img {
@@ -94,11 +90,6 @@ main article li i {
   padding: 5px;
 }
 
-main article a {
-  color: #0000FF;
-  cursor: pointer;
-}
-
 main article dt {
   padding: 0vh 0vh 3vh 3vh;
 }
@@ -109,24 +100,8 @@ main article dd {
 }
 
 footer {
-  background-color: #023441;
+  background-color: #286270;
   color: #ffffff;
-}
-
-footer h3 {
-  padding: 5vh;
-}
-
-footer li {
-  font-size: 20px;
-}
-
-footer li i {
-  color: #ffffff;
-  padding: 10px;
-}
-
-footer p {
   text-align: center;
   padding: 10vh;
 }
