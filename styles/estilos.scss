@@ -61,18 +61,23 @@ main article {
   max-width: 1000px;
   box-shadow: 4px 4px 0px #c1c1c1;
   img {
-    width: 100%;
+    width: 90%;
+    margin: auto;
+    display: block;
+    border: solid 2px black;
+    box-shadow: 4px 4px 0px #c1c1c1;
+
   }
-}
-main article h2, h3, h4 {
-  padding: 2vh;
+  h3 {
+    padding: 3vh;
+  }
 }
 main article p {
   text-align: justify;
-  padding: 1vh 1vh 1vh 2vh;
+  padding: 1vh;
 }
 main article li {
-  padding: 1vh 1vh 1vh 2vh;
+  padding: 1.5vh;
 }
 main article li i {
   color: #000000;
