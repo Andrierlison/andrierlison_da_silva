@@ -1,5 +1,4 @@
 # Andrierlison Da Silva
-## Desenvolvedor Front End
 [Link para página](https://andrierlison.github.io/andrierlison_portifolio/)
 
 ### Todas as informações sobre mim estão melhor descritas no meu portifólio.
