@@ -1,0 +1,91 @@
+* {
+  padding: 0px; margin: 0px;
+}
+body {
+  width: 100%; height: 100%;
+  font-family: "Roboto", sans-serif;
+}
+h3, h4 {
+  padding: 1.5vh;
+}
+i {
+  font-size: 20pt;
+}
+a {
+  color: #000000;
+}
+hr {
+  margin: 1vh 5vh;
+}
+li {
+  list-style: none;
+}
+header {
+  background-color: #286270; color: #ffffff;
+}
+header h1 {
+  padding: 10vh 2vh 5vh 2vh;
+}
+header h2 {
+  padding: 4vh 2vh 5vh 2vh;
+  text-align: center;
+}
+header .menuTopo a {
+  display: inline-block;
+  background-color: #ffffff; color: #286270;
+  padding: 15px;
+  text-decoration: none;
+  border: none;
+}
+main article {
+  border: 2px solid #000000;
+  box-shadow: 4px 4px 0px #c1c1c1;
+  margin: 3vh auto; padding: 1vh;
+  width:90%;
+  max-width: 700px;
+  text-align:justify;
+}
+main article li {
+	margin:10px;
+}
+main article i {
+  color: #000000;
+  padding: 5px;
+}
+.my_projects {
+  display: flex;
+  flex-direction: row; flex-wrap: wrap;
+  justify-content: space-between; align-content: space-between;
+}
+.my_projects .projects {
+  min-width: 300px; max-width: 40vw;
+  margin: 3vh auto;
+  display:block;
+}
+.my_projects .projects:hover {
+  background-color: #f1f1f1;
+}
+.skills ul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.skills ul li {
+  background-color: #f1f1f1;
+  padding:5px;
+}
+.skills li:hover {
+  background-color: #c1c1c1;
+}
+footer {
+  background-color: #286270; color: #ffffff;
+  text-align: center;
+  padding: 5%;
+}
+.dark-mode * {
+  background-color: #353535; color: #ffffff;
+  border: none;
+}
+.dark-mode .menuTopo i {
+  background-color: #ffffff; color: #353535;
+}
