@@ -14,7 +14,7 @@ i {
 }
 
 a {
-  color: #286270;
+  color: #000000;
 }
 
 hr {
@@ -56,13 +56,20 @@ header .menuTopo a {
 }
 .projects article {
   max-width: 40vw;
-  min-width: 350px;
+  min-width: 300px;
+  margin: 3vh auto;
+  display:block;
 }
-
+.projects article:hover {
+  background-color: #f1f1f1;
+}
 .skills li{
   display: inline-block;
   background-color: #f1f1f1;
   margin: 10px;
+}
+.skills li:hover {
+  background-color: #c1c1c1;
 }
 
 main {
@@ -73,20 +80,18 @@ main h3 {
 
 }
 main article {
-  border: 3px solid #286270;
+  border: 3px solid #000000;
   margin: 3vh auto;
   box-shadow: 4px 4px 0px #c1c1c1;
+  width:98%;
   max-width: 700px;
 }
 main article h3 {
   padding: 2vh;
 }
-main article p {
-  text-align: justify;
-  padding: 1vh;
-}
 main article li {
   padding: 1.5vh;
+  text-align: justify;
 }
 main article li i {
   color: #000000;
