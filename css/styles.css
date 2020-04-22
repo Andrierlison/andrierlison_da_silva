@@ -72,6 +72,10 @@ main article i {
 .my_projects .projects:hover {
   background-color: #f1f1f1;
 }
+.my_projects .projects img {
+  width: 100%;
+  object-fit: contain;
+}
 .skills ul{
   display: flex;
   flex-direction: row;
@@ -89,16 +93,4 @@ footer {
   color: #ffffff;
   text-align: center;
   padding: 5%;
-}
-.dark-mode * {
-  background-color: #353535;
-  color: #ffffff;
-  border: none;
-}
-.dark-mode .menuTopo i {
-  background-color: #ffffff;
-  color: #353535;
-}
-.dark-mode .skills li {
-  background-color: #353535;
 }
