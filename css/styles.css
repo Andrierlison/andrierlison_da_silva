@@ -9,11 +9,6 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-h3,
-h4 {
-  padding: 1.5vh;
-}
-
 i {
   font-size: 20pt;
   padding: 10px;
@@ -45,40 +40,69 @@ header h2 {
   padding: 4vh 2vh 5vh 2vh;
   text-align: center;
 }
-
-main article {
-  border: 2px solid #000000;
-  box-shadow: 4px 4px 0px #c1c1c1;
-  margin: 3vh auto;
-  padding: 1vh;
-  width: 90%;
-  max-width: 700px;
-  text-align: justify;
+main {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: space-around;
 }
-
-main article li {
+h3, h4 {
+  padding: 10px;
+}
+article {
+  border: #286270 solid 2px;
+  display: block;
   margin: 10px;
 }
 
-.my_projects .projects {
-  margin: 3vh auto;
-  display: block;
+article {
+  padding: 10px;
 }
 
-.my_projects .projects:hover {
+article p {
+  text-align: justify;
+  padding: 5px;
+}
+
+.col_left {
+  float: left;
+  max-width: 550px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.col_right {
+  float: right;
+  max-width: 650px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.projects_bootstrap ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.projects_bootstrap ul li {
   background-color: #f1f1f1;
+  padding: 15px;
+  margin: 5px;
 }
 
-.my_projects .projects a:hover {
-  background-color: #000000;
+.projects_bootstrap li:hover {
   color: #f1f1f1;
-  padding: 5px;
+  background-color: #286270;
 }
 
-.projects_bootstrap a:hover {
-  background-color: #000000;
+.projects_bootstrap li:hover a {
   color: #f1f1f1;
-  padding: 5px;
 }
 
 .skills ul {
@@ -90,10 +114,16 @@ main article li {
 .skills ul li {
   background-color: #f1f1f1;
   padding: 5px;
+  margin: 5px;
 }
 
 .skills li:hover {
-  background-color: #c1c1c1;
+  color: #f1f1f1;
+  background-color: #286270;
+}
+
+.skills li:hover i {
+  color: #f1f1f1;
 }
 
 footer {
