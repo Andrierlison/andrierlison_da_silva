@@ -12,7 +12,6 @@ body {
 i {
   font-size: 20pt;
   padding: 10px;
-  color: #000000;
 }
 
 a {
@@ -32,13 +31,14 @@ header {
   color: #ffffff;
 }
 
-header h1 {
-  padding: 40px;
+h1,
+h2 {
+  padding: 34px;
 }
 
-header h2 {
-  padding: 4vh 2vh 5vh 2vh;
-  text-align: center;
+h3,
+h4 {
+  padding: 17px;
 }
 
 main {
@@ -50,26 +50,25 @@ main {
   align-content: space-around;
 }
 
-h3,
-h4 {
-  padding: 10px;
-}
-
 article {
   border: #286270 solid 2px;
-  margin: 5px;
-  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 0px gray;
+  margin: 10px;
 }
 
 article p {
   text-align: justify;
-  padding: 5px;
+  padding: 10px;
+}
+.col_left article:hover {
+  background-color: #f1f1f1;
 }
 
 .col_left {
   float: left;
   width: 100%;
-  max-width: 450px;
+  max-width: 500px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -96,12 +95,12 @@ article p {
   margin: 5px;
 }
 
-.projects_bootstrap li:hover {
+.projects_bootstrap ul li:hover {
   color: #f1f1f1;
   background-color: #286270;
 }
 
-.projects_bootstrap li:hover a {
+.projects_bootstrap ul li:hover a {
   color: #f1f1f1;
 }
 
@@ -114,15 +113,15 @@ article p {
 .skills ul li {
   background-color: #f1f1f1;
   padding: 5px;
-  margin: 5px;
+  margin: 10px;
 }
 
-.skills li:hover {
+.skills ul li:hover {
   color: #f1f1f1;
   background-color: #286270;
 }
 
-.skills li:hover i {
+.skills ul li:hover i {
   color: #f1f1f1;
 }
 
@@ -130,5 +129,5 @@ footer {
   background-color: #286270;
   color: #ffffff;
   text-align: center;
-  padding: 5%;
+  padding: 34px;
 }
