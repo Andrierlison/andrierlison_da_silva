@@ -40,6 +40,7 @@ header h2 {
   padding: 4vh 2vh 5vh 2vh;
   text-align: center;
 }
+
 main {
   width: 100%;
   display: flex;
@@ -48,16 +49,15 @@ main {
   justify-content: space-around;
   align-content: space-around;
 }
-h3, h4 {
+
+h3,
+h4 {
   padding: 10px;
-}
-article {
-  border: #286270 solid 2px;
-  display: block;
-  margin: 10px;
 }
 
 article {
+  border: #286270 solid 2px;
+  margin: 5px;
   padding: 10px;
 }
 
@@ -68,8 +68,8 @@ article p {
 
 .col_left {
   float: left;
-  max-width: 550px;
   width: 100%;
+  max-width: 450px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -77,8 +77,8 @@ article p {
 
 .col_right {
   float: right;
-  max-width: 650px;
   width: 100%;
+  max-width: 450px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
