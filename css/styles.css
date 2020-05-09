@@ -65,10 +65,7 @@ article p {
   float: left;
   width: 100%;
   max-width: 600px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin: 20px;
+  margin: 10px;
   background-color: #ffffff;
 }
 
@@ -120,9 +117,12 @@ article p {
   transition: .5s;
 }
 
-footer {
+footer * {
   background-color: #286270;
   color: #ffffff;
+  text-shadow: 1px 1px 0px #000000;
+}
+footer p {
+  padding: 10vh;
   text-align: center;
-  padding: 34px;
 }
