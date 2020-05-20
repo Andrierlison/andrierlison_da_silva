@@ -31,7 +31,7 @@ li {
 }
 
 header {
-  background-image: url(./images/img-header.svg);
+  background-image: url(../images/img-header.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
