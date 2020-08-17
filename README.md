@@ -11,6 +11,4 @@
 <br />
 [Github.com/Andrierlison](https://github.com/Andrierlison)
 <br />
-[Twitter/Andrierlison1](https://twitter.com/Andrierlison1?s=09)
-<br />
 [Email: andrierlisonsilva8@gmail.com](mailto:andrierlisonsilva8@gmail.com)
