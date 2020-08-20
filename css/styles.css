@@ -70,6 +70,7 @@ main {
 }
 
 article {
+        width: 100%;
 	margin: 15px;
 	border: var(--cor2) solid 1px;
 	border-radius: 10px;
