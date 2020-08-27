@@ -71,7 +71,8 @@ main {
 
 article {
         width: 100%;
-	margin: 15px;
+max-width: 550px;
+	margin: 15px auto;
 	border: var(--cor2) solid 1px;
 	border-radius: 10px;
 	background-color: var(--cor3);
