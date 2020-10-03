@@ -6,16 +6,14 @@
 
 <h2>Contact</h2>
 
-<br />
-<img width="20px" src="images/readme/icons/linkedin.svg">
+<li>
 <a href="https://www.linkedin.com/in/andrierlison-da-silva-916775190/">Linkedin/andrierlison-da-silva</a>
+</li>
 
-<br />
-<img width="20px" src="images/readme/icons/github.svg">
+<li>
 <a href="https://github.com/Andrierlison">Github.com/Andrierlison</a>
+</li>
 
-<br />
-<img width="20px" src="images/readme/icons/gmail.svg">
+<li>
 <a href="mailto:andrierlisonsilva8@gmail.com">Email: andrierlisonsilva8@gmail.com</a>
-
-<br />
+</li>
