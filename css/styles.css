@@ -108,7 +108,7 @@ article p {
 	flex-direction: column;
 }
 
-.my_projects a {
+.my_projects #projects li {
 	margin: 10px 0px 10px 14px;
 }
 
