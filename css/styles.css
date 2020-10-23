@@ -109,7 +109,15 @@ article p {
 }
 
 .my_projects #projects li {
-	margin: 10px 0px 10px 14px;
+	border: 1px solid;
+	padding: 8px;
+	margin: 8px;
+	border-radius: 4px;
+	box-shadow: 0px 0px 10px purple;
+}
+#projects li .languages {
+	display: block;
+	margin: 8px;
 }
 
 .projects_bootstrap ul,
