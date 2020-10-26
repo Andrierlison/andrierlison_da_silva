@@ -6,6 +6,7 @@ async function listRepos() {
 		.then((data) => {
 			data.map((data) => {
 				const li = document.createElement("li");
+
 				const a = document.createElement("a");
 
 				const repoNames = document.createTextNode(data.name);
@@ -29,8 +30,11 @@ async function listRepos() {
 				}
 
 				listLanguages(data.name);
+				const iframe = document.createElement("iframe");
+				iframe.setAttribute("scrolling", "no");
+				iframe.setAttribute("src", `${data.homepage}`);
+				li.appendChild(iframe);
 			});
 		});
 }
-
 listRepos();
