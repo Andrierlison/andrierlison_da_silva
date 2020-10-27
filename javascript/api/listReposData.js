@@ -1,35 +1,33 @@
 const projects = document.getElementById("projects");
 
-async function listRepos() {
+function listRepos() {
 	fetch(`https://api.github.com/users/Andrierlison/repos`)
 		.then((response) => response.json())
 		.then((data) => {
 			data.map((data) => {
 				const li = document.createElement("li");
-
 				const a = document.createElement("a");
-
 				const repoNames = document.createTextNode(data.name);
+
 				a.setAttribute("href", `${data.html_url}`);
 				a.appendChild(repoNames);
 				li.appendChild(a);
 				projects.appendChild(li);
 
-				function listLanguages(data) {
-					fetch(`https://api.github.com/repos/Andrierlison/${data}/languages`)
-						.then((respose) => respose.json())
-						.then((language) => {
-							const div = document.createElement("div");
-							const repoLanguage = document.createTextNode(
-								Object.keys(language)
-							);
-							div.setAttribute("class", "languages");
-							div.appendChild(repoLanguage);
-							li.appendChild(div);
-						});
-				}
+				fetch(
+					`https://api.github.com/repos/Andrierlison/${data.name}/languages`
+				)
+					.then((respose) => respose.json())
+					.then((language) => {
+						const p = document.createElement("p");
+						const repoLanguage = document.createTextNode(
+							Object.keys(language).join(" - ")
+						);
+						p.setAttribute("class", "languages");
+						p.appendChild(repoLanguage);
+						li.appendChild(p);
+					});
 
-				listLanguages(data.name);
 				const iframe = document.createElement("iframe");
 				iframe.setAttribute("scrolling", "no");
 				iframe.setAttribute("src", `${data.homepage}`);
