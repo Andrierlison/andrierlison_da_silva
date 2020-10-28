@@ -36,7 +36,7 @@ body {
 	flex-direction: column;
 	float: right;
 	position: sticky;
-	bottom: 0px;
+	bottom: 10px;
 	background-color: var(--cor2);
 	box-shadow: 0px 0px 10px var(--cor4);
 	border-radius: 8px;
@@ -95,11 +95,18 @@ main {
 	justify-content: center;
 }
 
+main div {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-start;
+}
+
 article {
 	border: var(--cor3) solid 1px;
 	background-color: var(--cor1);
 	box-shadow: 3px 3px 5px var(--cor3);
-	margin: 20px 0px;
+	margin: 20px 10px;
 }
 
 article h3 {
@@ -113,14 +120,15 @@ article p {
 	padding: 5px 20px 10px 20px;
 }
 
-.my_projects {
+.my-projects {
 	display: flex;
 	flex-direction: column;
 	max-width: 1000px;
 	width: 94%;
 }
 
-.my_projects #projects {
+.my-projects #projects {
+	margin: 10px;
 	overflow: scroll;
 	overflow-y: hidden;
 	display: flex;
@@ -129,28 +137,32 @@ article p {
 	scrollbar-arrow-color: yellow;
 }
 
-.my_projects #projects li {
+.my-projects #projects li {
 	padding: 8px;
 	margin: 8px;
+	background-color: var(--cor2);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	background-color: var(--cor2);
-	border-radius: 4px;
-	color: var(--cor2);
+	border-radius: 8px;
 	scroll-snap-align: start;
-	width: 100vw;
 }
 
-.my_projects #projects li a {
+.my-projects #projects li .html-url {
 	text-transform: uppercase;
 	margin: 20px;
+}
+
+.my-projects #projects li a:hover {
+	text-decoration: underline;
+	color: var(--cor4);
 }
 
 #projects li .languages {
 	display: block;
 	margin: 8px;
+	text-transform: uppercase;
 }
 #projects li iframe {
 	border: none;
@@ -176,8 +188,8 @@ article p {
 .certificates ul li {
 	border: 2px solid var(--cor3);
 	border-radius: 5px;
-	padding: 20px;
-	margin: 10px;
+	padding: 10px;
+	margin: 8px;
 }
 
 .skills ul li a:hover,

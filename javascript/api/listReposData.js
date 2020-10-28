@@ -10,6 +10,8 @@ function listRepos() {
 				const repoNames = document.createTextNode(data.name);
 
 				a.setAttribute("href", `${data.html_url}`);
+				a.setAttribute("class", "html-url");
+
 				a.appendChild(repoNames);
 				li.appendChild(a);
 				projects.appendChild(li);
@@ -29,8 +31,10 @@ function listRepos() {
 					});
 
 				const iframe = document.createElement("iframe");
+
 				iframe.setAttribute("scrolling", "no");
 				iframe.setAttribute("src", `${data.homepage}`);
+
 				li.appendChild(iframe);
 			});
 		});
