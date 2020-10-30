@@ -138,7 +138,7 @@ article p {
 }
 
 .my-projects #projects li {
-	padding: 8px;
+	padding: 16px;
 	margin: 8px;
 	background-color: var(--cor2);
 	display: flex;
@@ -147,6 +147,7 @@ article p {
 	justify-content: center;
 	border-radius: 8px;
 	scroll-snap-align: start;
+	width: 100%;
 }
 
 .my-projects #projects li .html-url {
@@ -167,9 +168,9 @@ article p {
 #projects li iframe {
 	border: none;
 	outline: none;
-	height: 50vh;
+	height: 70vh;
 	width: min(500px, 89vw);
-	background-color: white;
+	background-color: #fff;
 }
 
 .skills,
