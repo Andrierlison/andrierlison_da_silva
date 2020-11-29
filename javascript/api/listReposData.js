@@ -34,6 +34,7 @@ function listRepos() {
 
 				iframe.setAttribute("scrolling", "no");
 				iframe.setAttribute("src", `${data.homepage}`);
+				iframe.setAttribute("title", `${repoNames}`);
 
 				li.appendChild(iframe);
 			});
