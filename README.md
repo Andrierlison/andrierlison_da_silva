@@ -1,7 +1,7 @@
 <div  align="center">
 <h1>
-<a href="https://andrierlison.github.io/andrierlison-da-silva/">Andrierlison Da Silva</a></h1>
-<h2>FrontEnd Developer
+<a href="https://andrierlison.github.io/andrierlison-da-silva/">Click here to view the page.</a></h1>
+    <h2>Andrierlison Da Silva - FrontEnd Developer</h2>
 </div>
 
 <h2>Contact</h2>
